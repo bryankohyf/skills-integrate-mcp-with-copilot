@@ -41,6 +41,7 @@ main {
   }
 }
 
+
 section {
   background-color: white;
   padding: 20px;
@@ -48,6 +49,21 @@ section {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
+}
+
+.activity-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.activity-controls input[type="text"],
+.activity-controls select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
 }
 
 section h3 {
